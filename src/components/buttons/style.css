@@ -1,0 +1,9 @@
+.button {
+  display: flex;
+  align-items: center;
+}
+.button:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  /* translate: 1rem; */
+}
