@@ -1,0 +1,2 @@
+# HokDapp
+A decentralized application
