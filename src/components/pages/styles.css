@@ -1,8 +1,16 @@
 .homepage-container {
   background-color: #f5f5f5;
-  padding: 0 0 20px 0;
+}
+
+.first-row-buttons {
   display: flex;
-  /* how do i space elements in a flexbox? */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.second-row-buttons {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
