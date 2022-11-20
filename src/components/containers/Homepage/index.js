@@ -1,8 +1,8 @@
-import OpenWalletButton from "../buttons/OpenWalletButton";
-import CloseWalletButton from "../buttons/CloseWalletButton";
-import AddAddressButton from "../buttons/AddAddressButton";
-import CheckBalanceButton from "../buttons/CheckBalanceButton";
-import UpdateRatesButton from "../buttons/UpdateRatesButton";
+import OpenWalletButton from "../../buttons/OpenWalletButton";
+import CloseWalletButton from "../../buttons/CloseWalletButton";
+import AddAddressButton from "../../buttons/AddAddressButton";
+import CheckBalanceButton from "../../buttons/CheckBalanceButton";
+import UpdateRatesButton from "../../buttons/UpdateRatesButton";
 
 import "./styles.css";
 export default function Homepage() {
