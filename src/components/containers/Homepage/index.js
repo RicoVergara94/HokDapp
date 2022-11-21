@@ -3,6 +3,7 @@ import CloseWalletButton from "../../buttons/CloseWalletButton";
 import AddAddressButton from "../../buttons/AddAddressButton";
 import CheckBalanceButton from "../../buttons/CheckBalanceButton";
 import UpdateRatesButton from "../../buttons/UpdateRatesButton";
+import CoinTable from "../../tables/CoinTable";
 
 import "./styles.css";
 export default function Homepage() {
@@ -12,6 +13,9 @@ export default function Homepage() {
       <div class="first-row-buttons">
         <OpenWalletButton />
         <CloseWalletButton />
+      </div>
+      <div class="middle-table">
+        <CoinTable />
       </div>
       <div class="second-row-buttons">
         <AddAddressButton />
